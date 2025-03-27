@@ -153,7 +153,7 @@
                 </div>
                 <div class="mt-16 text-center text-lg-start wow fadeInRight" data-wow-delay="1.6s">
                   <a href="#" class="btn btn-sm wow fadeInLeft" data-wow-delay="3s">
-                    See My Work <i class="fa fa-chevron-right ms-2"></i>
+                    Resume <i class="fa fa-chevron-right ms-2"></i>
                   </a>
                 </div>
               </div>
@@ -175,12 +175,13 @@
         <div class="page-section-title row">
           <div class="col-12">
             <h3 class="section-title-s2 stroke-text-bolder wow fadeInLeft" data-wow-duration="2s">
-              Expertise
+            here is 
             </h3>
           </div>
           <div class="col-lg-8">
             <h3 class="section-title-s7 wow fade-right" data-splitting="chars" data-splitting-delay="400ms">
-              Strategic Writing
+              
+           My area of ​​expertise
             </h3>
           </div>
         </div>
@@ -197,9 +198,9 @@
                 </svg>
 
               </div>
-              <h3 class="title">Proofreading</h3>
+              <h3 class="title">software developer</h3>
               <div class="description">Creating and maintaining websites, involving tasks like coding, designing, and
-                build functionality.
+                build complate software systems.
               </div>
             </div>
             <!-- /Service Box -->
@@ -214,9 +215,9 @@
                     d="m16.5,0H7.5C5.019,0,3,2.019,3,4.5v15c0,2.481,2.019,4.5,4.5,4.5h9c2.481,0,4.5-2.019,4.5-4.5V4.5c0-2.481-2.019-4.5-4.5-4.5Zm3.5,19.5c0,1.93-1.57,3.5-3.5,3.5H7.5c-1.93,0-3.5-1.57-3.5-3.5V4.5c0-1.93,1.57-3.5,3.5-3.5h9c1.93,0,3.5,1.57,3.5,3.5v15Zm-6,1c0,.276-.224.5-.5.5h-3c-.276,0-.5-.224-.5-.5s.224-.5.5-.5h3c.276,0,.5.224.5.5Z" />
                 </svg>
               </div>
-              <h3 class="title">Copywriting</h3>
-              <div class="description">Creating applications for mobile devices or desktops, focusing on
-                features and experience
+              <h3 class="title">Documentary storyteller and videographer </h3>
+              <div class="description">
+              volunteer story teller at <div class="experience-card-s2__org">  <a href="https://www.instagram.com/strory_zetu/">Story Zetu</a></div>
               </div>
             </div>
             <!-- /Service Box -->
@@ -230,7 +231,7 @@
                     d="m24,8.5v7c0,2.481-2.019,4.5-4.5,4.5h-7v3h3.5c.276,0,.5.224.5.5s-.224.5-.5.5h-8c-.276,0-.5-.224-.5-.5s.224-.5.5-.5h3.5v-3h-7c-2.481,0-4.5-2.019-4.5-4.5V6.5C0,4.019,2.019,2,4.5,2h10c.276,0,.5.224.5.5s-.224.5-.5.5H4.5c-1.93,0-3.5,1.57-3.5,3.5v9c0,1.93,1.57,3.5,3.5,3.5h15c1.93,0,3.5-1.57,3.5-3.5v-7c0-.276.224-.5.5-.5s.5.224.5.5Zm-12.758,1.529C19.095.891,19.129.855,19.146.838c1.119-1.116,2.937-1.116,4.052.002,1.114,1.117,1.114,2.936,0,4.052l-8.221,8.826c-.048.796-.348,1.545-.897,2.145-.661.723-1.603,1.138-2.582,1.138h-4c-.485,0-.928-.224-1.214-.612-.287-.39-.369-.879-.225-1.343.5-1.61,2.039-4.469,4.632-4.97.182-.035.366-.039.549-.046Zm1.19.15c.421.126.826.311,1.186.581.578.436.986,1.011,1.202,1.658l2.065-2.216c-.328-1.184-1.369-2.066-2.596-2.184-.655.763-1.291,1.502-1.857,2.161Zm1.557,3.09c-.06-.674-.405-1.281-.974-1.71-.613-.463-1.391-.647-2.133-.502-2.13.411-3.433,2.886-3.867,4.284-.049.157-.021.322.075.453.096.13.246.205.409.205h4c.7,0,1.372-.296,1.845-.812.479-.523.708-1.205.645-1.918Zm1.05-6.124c1.156.316,2.12,1.143,2.61,2.237l4.829-5.184c.737-.74.737-1.924.012-2.652-.727-.727-1.91-.728-2.637,0-.069.079-2.444,2.842-4.814,5.6Z" />
                 </svg>
               </div>
-              <h3 class="title">Ghostwriting</h3>
+              <h3 class="title">UI/UX Design</h3>
               <div class="description">Designing user interfaces and experiences to ensure products are visually
                 appealing and intuitive.
               </div>
@@ -259,29 +260,26 @@
 
             <div class="w-100 mt-32">
               <div class="mb-32 wow fadeInUp">
-                <h3 class="fs-5xl mb-0">Natalie Harper</h3>
-                <div class="text-gray-2 fs-xl">Freelance Content Writer</div>
+                <h3 class="fs-5xl mb-0">Eray mutabesha</h3>
+                <div class="text-gray-2 fs-xl">Software developer</div>
               </div>
               <!-- Biography -->
               <div class="mb-16 wow fadeInUp" data-wow-delay="200ms">
-                <h4>Biography</h4>
-                <p class="text-gray-2">I'm a web designer passionate about creating visually stunning and user-friendly
-                  websites. I focus on functionality, I craft digital experiences that captivate and engage.</p>
+                <h4>About me</h4>
+                <p class="text-gray-2">👋 Hi there! I'm Eray mutabesha AKA mr 404, a passionate software engineer specializing in JavaScript ,React JS, Node JS and Laravel. With a keen eye for clean and efficient code, I thrive on building dynamic and intuitive web applications that deliver exceptional user experiences, adept at crafting scalable solutions and leveraging cutting-edge technologies to solve complex problems.</p>
               </div>
               <!-- /Biography -->
               <!-- Contact Information -->
               <div class="wow fadeInUp" data-wow-delay="400ms">
                 <div class="d-flex justify-content-between mb-2">
-                  <div class="fw-600">Website</div>
-                  <div class="text-end text-gray-2 fs-lg">leon.studio</div>
                 </div>
                 <div class="d-flex justify-content-between mb-2">
                   <div class="fw-600">Email</div>
-                  <div class="text-end text-gray-2 fs-lg">hi@leon.studio</div>
+                  <div class="text-end text-gray-2 fs-lg">eraymutabesha4@gmail.com</div>
                 </div>
                 <div class="d-flex justify-content-between">
                   <div class="fw-600">Phone</div>
-                  <div class="text-end text-gray-2 fs-lg">+21 78347843</div>
+                  <div class="text-end text-gray-2 fs-lg">+250 791434737</div>
                 </div>
               </div>
               <!-- /Contact Information -->
@@ -300,44 +298,27 @@
                 <div class="bg-blurred-purple"></div>
                 <!-- Experience Card -->
                 <div class="experience-card-s2 mb-24 wow fadeInUp">
-                  <div class="experience-card-s2__org"><a href="#">SEO Trends That Shape Digital Success</a></div>
+                  <div class="experience-card-s2__org"><a href="https://lagracedejnk.v2.nguvutech.com/">La Grâce de JNK Restaurant </a></div>
                   <div class="experience-card-s2__duration">2025</div>
-                  <div class="experience-card-s2__title">Marketing Today</div>
-                  <div class="experience-card-s2__desc">Cursus risus at ultrices mi tempus imperdiet nulla malesuada
-                    pellentesque elit eget gravida cum sociis natoque penatibus
+                  <div class="experience-card-s2__title">Restaurant management system</div>
+                  <div class="experience-card-s2__desc">La Grace de JNK Restaurant is a comprehensive restaurant management system designed to optimize operations and enhance customer experience. It includes features such as order management, reservation handling, inventory tracking, and a seamless payment system. Built with a user-friendly interface and robust backend architecture, it ensures efficiency for both staff and customers.
                   </div>
                 </div>
                 <!-- /Experience Card -->
-                <!-- Experience Card -->
-                <div class="experience-card-s2 mb-24 wow fadeInUp">
-                  <div class="experience-card-s2__org">The Art of Persuasive Writing</div>
-                  <div class="experience-card-s2__duration">2024</div>
-                  <div class="experience-card-s2__title">Inkspire Press</div>
-                  <div class="experience-card-s2__desc">Cursus risus at ultrices mi tempus imperdiet nulla malesuada
-                    pellentesque elit eget gravida cum sociis natoque penatibus
+
+
+                  <!-- Experience Card -->
+                  <div class="experience-card-s2 mb-24 wow fadeInUp">
+                  <div class="experience-card-s2__org"><a href="https://sms.nguvutech.com/">S.M.S</a></div>
+                  <!-- <div class="experience-card-s2__duration">2024</div> -->
+                  <div class="experience-card-s2__title">School management system</div>
+                  <div class="experience-card-s2__desc">
+                  Built with our dev team at #NGUVU TECH
+                 I had the opportunity to collaborate on the development of a complete management system for a school, as part of a group project. This project aimed to facilitate the management of the various administrative and academic operations of a school. We worked as a team to design an efficient, modern and scalable solution that meets the specific needs of teachers, administrators, students and parents.
                   </div>
                 </div>
                 <!-- /Experience Card -->
-                <!-- Experience Card -->
-                <div class="experience-card-s2 mb-24 wow fadeInUp">
-                  <div class="experience-card-s2__org">Content That Converts</div>
-                  <div class="experience-card-s2__duration">2024</div>
-                  <div class="experience-card-s2__title">WordCrafters Publishing</div>
-                  <div class="experience-card-s2__desc">Cursus risus at ultrices mi tempus imperdiet nulla malesuada
-                    pellentesque elit eget gravida cum sociis natoque penatibus
-                  </div>
-                </div>
-                <!-- /Experience Card -->
-                <!-- Experience Card -->
-                <div class="experience-card-s2 wow fadeInUp">
-                  <div class="experience-card-s2__org">The Power of Storytelling in Branding</div>
-                  <div class="experience-card-s2__duration">2023</div>
-                  <div class="experience-card-s2__title">Creative Insights Magazine</div>
-                  <div class="experience-card-s2__desc">Cursus risus at ultrices mi tempus imperdiet nulla malesuada
-                    pellentesque elit eget gravida cum sociis natoque penatibus
-                  </div>
-                </div>
-                <!-- /Experience Card -->
+
               </div>
 
             </div>
@@ -357,25 +338,25 @@
             <div class="row mt-lg-48">
               <div class="col-12 col-sm-6 mb-32">
                 <div class="counter-card-s2 wow-num fadeInRight" data-wow-delay="1s">
-                  <h4 class="counter-card-s2__digit"><span class="odometer-number" data-number="20"></span>+</h4>
+                  <h4 class="counter-card-s2__digit"><span class="odometer-number" data-number="4"></span>+</h4>
                   <p class="text-gray-3">Years of Experience</p>
                 </div>
               </div>
               <div class="col-12 col-sm-6 mb-32">
                 <div class="counter-card-s2 wow-num fadeInRight" data-wow-delay="1.2s">
-                  <h4 class="counter-card-s2__digit"><span class="odometer-number" data-number="40"></span>K</h4>
+                  <h4 class="counter-card-s2__digit"><span class="odometer-number" data-number="10"></span>+</h4>
                   <p class="text-gray-3">Websites Built</p>
                 </div>
               </div>
               <div class="col-12 col-sm-6 mb-32 mb-lg-0">
                 <div class="counter-card-s2 wow-num fadeInRight" data-wow-delay="1s">
-                  <h4 class="counter-card-s2__digit"><span class="odometer-number" data-number="50"></span>K</h4>
+                  <h4 class="counter-card-s2__digit"><span class="odometer-number" data-number="20"></span>+</h4>
                   <p class="text-gray-3">Completed project</p>
                 </div>
               </div>
               <div class="col-12 col-sm-6">
                 <div class="counter-card-s2 wow-num fadeInRight" data-wow-delay="1.2s">
-                  <h4 class="counter-card-s2__digit"><span class="odometer-number" data-number="78"></span>+</h4>
+                  <h4 class="counter-card-s2__digit"><span class="odometer-number" data-number="20"></span>+</h4>
                   <p class="text-gray-3">Published Works</p>
                 </div>
               </div>
@@ -386,10 +367,10 @@
             <div class="skill-progress-container">
               <!-- Skill Progress Item -->
               <div class="skill-progress-item wow fadeInUp">
-                <h6 class="title">Ghostwriting</h6>
+                <h6 class="title">PHP/Laravel</h6>
                 <div class="progress" role="progressbar" aria-label="Progress label" aria-valuenow="85"
                   aria-valuemin="0" aria-valuemax="100">
-                  <div class="progress-bar wow slideInLeft" data-wow-delay=" .1s" style="width: 85%"><span>85%</span>
+                  <div class="progress-bar wow slideInLeft" data-wow-delay=" .1s" style="width: 90%"><span>90%</span>
                   </div>
                 </div>
               </div>
@@ -397,10 +378,10 @@
 
               <!-- Skill Progress Item -->
               <div class="skill-progress-item wow fadeInUp" data-wow-delay="200ms">
-                <h6 class="title">SEO </h6>
+                <h6 class="title">JavaScript </h6>
                 <div class="progress" role="progressbar" aria-label="Progress label" aria-valuenow="90"
                   aria-valuemin="0" aria-valuemax="100">
-                  <div class="progress-bar wow slideInLeft" data-wow-delay=" .3s" style="width: 90%"><span>90%</span>
+                  <div class="progress-bar wow slideInLeft" data-wow-delay=" .3s" style="width: 85%"><span>85%</span>
                   </div>
                 </div>
               </div>
@@ -409,7 +390,7 @@
 
               <!-- Skill Progress Item -->
               <div class="skill-progress-item wow fadeInUp" data-wow-delay="400ms">
-                <h6 class="title">Copywriting</h6>
+                <h6 class="title">Node JS</h6>
                 <div class="progress" role="progressbar" aria-label="Progress label" aria-valuenow="85"
                   aria-valuemin="0" aria-valuemax="100">
                   <div class="progress-bar wow slideInLeft" data-wow-delay=" .5s" style="width: 85%"><span>85%</span>
@@ -420,10 +401,10 @@
 
               <!-- Skill Progress Item -->
               <div class="skill-progress-item wow fadeInUp" data-wow-delay="600ms">
-                <h6 class="title">Content Strategy </h6>
+                <h6 class="title">React JS</h6>
                 <div class="progress" role="progressbar" aria-label="Progress label" aria-valuenow="80"
                   aria-valuemin="0" aria-valuemax="100">
-                  <div class="progress-bar wow slideInLeft" data-wow-delay=" .7s" style="width: 80%"><span>80%</span>
+                  <div class="progress-bar wow slideInLeft" data-wow-delay=" .7s" style="width: 85%"><span>85%</span>
                   </div>
                 </div>
               </div>
@@ -438,98 +419,7 @@
     </section>
     <!-- /About -->
 
-    <!-- Portfolio -->
-    <section class="page-section" id="portfolio">
-      <div class="container position-relative">
-        <div class="bg-blurred-red"></div>
-        <!-- Section Title -->
-        <div class="page-section-title row">
-          <div class="col-lg-10">
-            <h3 class="section-title-s8 stroke-text-bolder wow fadeInRight" data-wow-duration="1s" data-wow-delay="1s">
-              My Creative Work
-            </h3>
-          </div>
-          <div class="col-lg-8 offset-lg-2">
-            <p class="section-title-s4 wow fade-right" data-splitting="chars" data-splitting-delay="1s">Crafting
-              Impactful experiences</p>
-          </div>
-        </div>
-        <!-- /Section Title -->
-
-        <div class="row">
-          <div class="col-lg-6 mb-lg-32 mb-24">
-            <!-- Project Box (Lightbox Image) -->
-            <div class="project-box">
-              <div class="project-box-container wow scalexIn" data-wow-duration="1s">
-                <a href="assets/images/projects/project-7.jpg" data-type="image" data-fslightbox="lightbox-projects">
-                  <img src="assets/images/projects/project-7.jpg" alt="" class="wow fadeIn" data-wow-delay="1.2s">
-                  <div class="content-overlay">
-                    <div>
-                      <div class="project-title">Landing Page</div>
-                      <div class="project-description">Lightbox Image</div>
-                    </div>
-                  </div>
-                </a>
-              </div>
-            </div>
-            <!-- /Project Box (Lightbox Image) -->
-          </div>
-          <div class="col-lg-6 mb-lg-32 mb-24">
-            <!-- Project Box (Lightbox Image) -->
-            <div class="project-box">
-              <div class="project-box-container wow scalexIn" data-wow-duration="1s">
-                <a href="assets/images/projects/project-8.jpg" data-type="image" data-fslightbox="lightbox-projects">
-                  <img src="assets/images/projects/project-8.jpg" alt="" class="wow fadeIn" data-wow-delay="1.2s">
-                  <div class="content-overlay">
-                    <div>
-                      <div class="project-title">Landing Page</div>
-                      <div class="project-description">Lightbox Image</div>
-                    </div>
-                  </div>
-                </a>
-              </div>
-            </div>
-            <!-- /Project Box (Lightbox Image) -->
-          </div>
-          <div class="col-lg-6 mb-24">
-            <!-- Project Box (Lightbox Image) -->
-            <div class="project-box">
-              <div class="project-box-container wow scalexIn" data-wow-duration="1s">
-                <a href="assets/images/projects/project-9.jpg" data-type="image" data-fslightbox="lightbox-projects">
-                  <img src="assets/images/projects/project-9.jpg" alt="" class="wow fadeIn" data-wow-delay="1.2s">
-                  <div class="content-overlay">
-                    <div>
-                      <div class="project-title">Landing Page</div>
-                      <div class="project-description">Lightbox Image</div>
-                    </div>
-                  </div>
-                </a>
-              </div>
-            </div>
-            <!-- /Project Box (Lightbox Image) -->
-          </div>
-          <div class="col-lg-6">
-            <!-- Project Box (Lightbox Image) -->
-            <div class="project-box">
-              <div class="project-box-container wow scalexIn" data-wow-duration="1s">
-                <a href="assets/images/projects/project-10.jpg" data-type="image" data-fslightbox="lightbox-projects">
-                  <img src="assets/images/projects/project-10.jpg" alt="" class="wow fadeIn" data-wow-delay="1.2s">
-                  <div class="content-overlay">
-                    <div>
-                      <div class="project-title">Landing Page</div>
-                      <div class="project-description">Lightbox Image</div>
-                    </div>
-                  </div>
-                </a>
-              </div>
-            </div>
-            <!-- /Project Box (Lightbox Image) -->
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- /Portfolio -->
-
+    
     <!-- Pricing -->
     <section class="page-section">
       <div class="container position-relative">
