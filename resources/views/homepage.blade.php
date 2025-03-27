@@ -420,176 +420,7 @@
     <!-- /About -->
 
     
-    <!-- Pricing -->
-    <section class="page-section">
-      <div class="container position-relative">
-        <div class="bg-blurred-red"></div>
-        <!-- Section Title -->
-        <div class="page-section-title row">
-          <div class="col-lg-8">
-            <h3 class="section-title-s8 stroke-text-bolder wow fadeInRight" data-wow-duration="1s" data-wow-delay="1s">
-              Flexible Pricing
-            </h3>
-          </div>
-          <div class="col-lg-8 offset-lg-2">
-            <p class="section-title-s4 wow fade-right" data-splitting="chars" data-splitting-delay="1s">Affordable plans
-              premium quality</p>
-          </div>
-        </div>
-        <!-- /Section Title -->
 
-        <div class="row position-relative">
-          <div class="col-lg-4 mb-32 mb-lg-0">
-            <div class="pricing-box wow fadeInUp">
-              <div class="pricing-box__header">
-                <div class="pricing-box__title">Basic</div>
-                <h3 class="pricing-box__price">$59</h3>
-                <p class="pricing-box__duration">Per Month</p>
-              </div>
-              <div class="pricing-box__items">
-                <ul>
-                  <li>
-                    <div class="pricing-box__item-icon">
-                      <i class="bi-check" aria-hidden="true"></i>
-                    </div>
-                    <p class="box-para">Responsive Website Design</p>
-                  </li>
-                  <li>
-                    <div class="pricing-box__item-icon">
-                      <i class="bi-check" aria-hidden="true"></i>
-                    </div>
-                    <p class="box-para">SEO Optimization</p>
-                  </li>
-                  <li>
-                    <div class="pricing-box__item-icon">
-                      <i class="bi-check" aria-hidden="true"></i>
-                    </div>
-                    <p class="box-para">Landing Page Creation</p>
-                  </li>
-                  <li>
-                    <div class="pricing-box__item-icon">
-                      <i class="bi-check" aria-hidden="true"></i>
-                    </div>
-                    <p class="box-para">Custom UI/UX design</p>
-                  </li>
-                  <li>
-                    <div class="pricing-box__item-icon">
-                      <i class="bi-check" aria-hidden="true"></i>
-                    </div>
-                    <p class="box-para">Speed optimization</p>
-                  </li>
-                </ul>
-              </div>
-              <div class="pricing-box__footer">
-                <a href="#contact" class="btn btn-sm">
-                  Order Now <i class="fa fa-chevron-right ms-1 fs-sm"></i>
-                </a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 mb-32 mb-lg-0">
-            <div class="pricing-box wow fadeInUp" data-wow-delay="400ms">
-              <div class="pricing-box__header">
-                <div class="pricing-box__title">Standard</div>
-                <h3 class="pricing-box__price">$89</h3>
-                <p class="pricing-box__duration">Per Month</p>
-              </div>
-              <div class="pricing-box__items">
-                <ul>
-                  <li>
-                    <div class="pricing-box__item-icon">
-                      <i class="bi-check" aria-hidden="true"></i>
-                    </div>
-                    <p class="box-para">Responsive Website Design</p>
-                  </li>
-                  <li>
-                    <div class="pricing-box__item-icon">
-                      <i class="bi-check" aria-hidden="true"></i>
-                    </div>
-                    <p class="box-para">SEO Optimization</p>
-                  </li>
-                  <li>
-                    <div class="pricing-box__item-icon">
-                      <i class="bi-check" aria-hidden="true"></i>
-                    </div>
-                    <p class="box-para">Landing Page Creation</p>
-                  </li>
-                  <li>
-                    <div class="pricing-box__item-icon">
-                      <i class="bi-check" aria-hidden="true"></i>
-                    </div>
-                    <p class="box-para">Custom UI/UX design</p>
-                  </li>
-                  <li>
-                    <div class="pricing-box__item-icon">
-                      <i class="bi-check" aria-hidden="true"></i>
-                    </div>
-                    <p class="box-para">Speed optimization</p>
-                  </li>
-                </ul>
-              </div>
-              <div class="pricing-box__footer">
-                <a href="#contact" class="btn btn-sm">
-                  Order Now <i class="fa fa-chevron-right ms-1 fs-sm"></i>
-                </a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4">
-            <div class="pricing-box wow fadeInUp" data-wow-delay="800ms">
-              <div class="pricing-box__header">
-                <div class="pricing-box__title">Premium</div>
-                <h3 class="pricing-box__price">$189</h3>
-                <p class="pricing-box__duration">Per Month</p>
-              </div>
-              <div class="pricing-box__items">
-                <ul>
-                  <li>
-                    <div class="pricing-box__item-icon">
-                      <i class="bi-check" aria-hidden="true"></i>
-                    </div>
-                    <p class="box-para">Responsive Website Design</p>
-                  </li>
-                  <li>
-                    <div class="pricing-box__item-icon">
-                      <i class="bi-check" aria-hidden="true"></i>
-                    </div>
-                    <p class="box-para">SEO Optimization</p>
-                  </li>
-                  <li>
-                    <div class="pricing-box__item-icon">
-                      <i class="bi-check" aria-hidden="true"></i>
-                    </div>
-                    <p class="box-para">Landing Page Creation</p>
-                  </li>
-                  <li>
-                    <div class="pricing-box__item-icon">
-                      <i class="bi-check" aria-hidden="true"></i>
-                    </div>
-                    <p class="box-para">Custom UI/UX design</p>
-                  </li>
-                  <li>
-                    <div class="pricing-box__item-icon">
-                      <i class="bi-check" aria-hidden="true"></i>
-                    </div>
-                    <p class="box-para">Speed optimization</p>
-                  </li>
-                </ul>
-              </div>
-              <div class="pricing-box__footer">
-                <a href="#contact" class="btn btn-sm">
-                  Order Now <i class="fa fa-chevron-right ms-1 fs-sm"></i>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-      </div>
-    </section>
-    <!-- /Pricing -->
 
     <!-- Testimonial -->
     <section class="page-section position-relative">
@@ -913,7 +744,7 @@
                 </div>
                 <div class="ci-text">
                   <div class="ci-text-title">E-mail</div>
-                  <div class="ci-text-detail">hello@domain.com</div>
+                  <div class="ci-text-detail">eraymutabesha4@gmail.com</div>
                 </div>
               </div>
               <!-- /Email -->
@@ -928,7 +759,7 @@
                 </div>
                 <div class="ci-text">
                   <div class="ci-text-title">Phone</div>
-                  <div class="ci-text-detail">+123 445 566</div>
+                  <div class="ci-text-detail">+250 791434737</div>
                 </div>
               </div>
               <!-- /Phone -->
@@ -944,7 +775,7 @@
                 <div class="ci-text">
                   <div class="ci-text-title">Location</div>
                   <div class="ci-text-detail">
-                    123 Main Street New York
+                    Rwanda/Rubavu/Gisenyi
                   </div>
                 </div>
               </div>
@@ -1020,7 +851,7 @@
         <!-- Footer Copyright -->
         <div class="col-lg-5 mb-4 mb-lg-0 text-center text-lg-start">
           <span class="text-gray-2 d-inline-block wow fadeInLeft" data-wow-offset="20">©
-            NusaTheme 2025 | All Rights
+            Eray mutabesha 2025 | All Rights
             Reserved</span>
         </div>
         <!-- /Footer Copyright -->
@@ -1028,21 +859,21 @@
         <!-- Social Media -->
         <div class="col-lg-7">
           <div class="social-media wow fadeInLeft" data-wow-offset="20">
-            <a href="#">
+            <a href="https://www.facebook.com/dieumercie.mutabesha?locale=fr_FR">
               <span class="visually-hidden">Facebook</span>
               <i class="bi-facebook"></i>
             </a>
-            <a href="#">
+            <a href="https://x.com/ErayMutabesha">
               <span class="visually-hidden">Twitter</span>
               <i class="bi-twitter-x"></i>
             </a>
-            <a href="#">
+            <a href="https://www.linkedin.com/in/eray-mutabesha-186240256/">
               <span class="visually-hidden">Linkedin</span>
               <i class="bi-linkedin"></i>
             </a>
-            <a href="#">
-              <span class="visually-hidden">Dribbble</span>
-              <i class="bi-dribbble"></i>
+            <a href="https://www.instagram.com/its.eray_/">
+              <span class="visually-hidden">Instagram</span>
+              <i class="bi-instagram"></i>
             </a>
           </div>
         </div>
