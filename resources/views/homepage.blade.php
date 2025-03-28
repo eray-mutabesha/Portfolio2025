@@ -813,6 +813,8 @@
                   </div>
                 </div>
 
+
+
                 <!-- Message -->
                 <div class="form-group">
                   <label for="message">Message</label>
@@ -820,6 +822,8 @@
                     placeholder="Enter your message"></textarea>
                 </div>
 
+
+                
                 <div class="row">
                   <div class="col-md-6 col-xl-5">
                     <!-- Send Button -->
@@ -922,5 +926,4 @@
 </body>
 
 
-<!-- Mirrored from demo.ajufbox.com/leon/home-7.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 25 Mar 2025 07:57:19 GMT -->
 </html>
