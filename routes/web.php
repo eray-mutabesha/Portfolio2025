@@ -21,5 +21,11 @@ Route::post('/',function (){
         'message'=>request('message')
     ]);
 
+    // Send email
+    Mail::raw(request('message'), function ($message) {
+        $message->to('eraymutabesha13@gmail.com')
+                ->subject("New Message from " . request('name'));
+    });
+
     return redirect('/')  ;
 });
