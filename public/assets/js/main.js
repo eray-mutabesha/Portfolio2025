@@ -364,37 +364,37 @@ function contactForm() {
   const successMessage = formMessage.querySelector('.success-message');
   const errorMessage = formMessage.querySelector('.error-message');
 
-  contactForm.addEventListener('submit', async function (e) {
-    e.preventDefault();
+  // contactForm.addEventListener('submit', async function (e) {
+  //   e.preventDefault();
 
-    if (formAction === '#') {
-      showSuccessMessage();
-      return;
-    }
-    // Construct a FormData instance
-    const formData = new FormData();
-    try {
-      const response = await fetch(formAction, {
-        method: "POST",
-        body: formData,
-      });
-      if (response.status === 200) {
-        contactForm.classList.add('wow-out', 'animated');
-        setTimeout(() => {
-          contactForm.classList.add('fadeOutUp');
-          setTimeout(() => {
-            showSuccessMessage();
-            contactForm.classList.add('invisible');
-          }, 1000)
-        }, 200)
-      } else {
-        showErrorMessage();
-      }
-    } catch (e) {
-      console.error(e);
-      showErrorMessage();
-    }
-  })
+  //   if (formAction === '#') {
+  //     showSuccessMessage();
+  //     return;
+  //   }
+  //   // Construct a FormData instance
+  //   const formData = new FormData();
+  //   try {
+  //     const response = await fetch(formAction, {
+  //       method: "POST",
+  //       body: formData,
+  //     });
+  //     if (response.status === 200) {
+  //       contactForm.classList.add('wow-out', 'animated');
+  //       setTimeout(() => {
+  //         contactForm.classList.add('fadeOutUp');
+  //         setTimeout(() => {
+  //           showSuccessMessage();
+  //           contactForm.classList.add('invisible');
+  //         }, 1000)
+  //       }, 200)
+  //     } else {
+  //       showErrorMessage();
+  //     }
+  //   } catch (e) {
+  //     console.error(e);
+  //     showErrorMessage();
+  //   }
+  // })
 
   function showSuccessMessage() {
     successMessage.classList.remove('d-none');
