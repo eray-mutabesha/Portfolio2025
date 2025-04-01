@@ -2,40 +2,41 @@
 
 namespace App\Http\Controllers;
 
-// app/Http/Controllers/ContactController.php
-namespace App\Http\Controllers;
+use Illuminate\Foundation\Auth\Access\AuthorizesRequests;
+use Illuminate\Foundation\Bus\DispatchesJobs;
+use Illuminate\Foundation\Validation\ValidatesRequests;
+use Illuminate\Routing\Controller as BaseController;
 
 use App\Models\Message;
-use App\Mail\ContactMail;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Mail;
 
-class ContactController extends Controller
+class Controller extends BaseController
+
+
 {
+    use AuthorizesRequests, DispatchesJobs, ValidatesRequests;
     public function sendMessage(Request $request)
     {
         $request->validate([
-            'name' => 'required|string|min:3|max:100',
-            'email' => 'required|email',
-            'message' => 'required|string|max:500',
+            'name'=>['required'],
+            'email'=>['required'],
+            'message'=>['required']
         ]);
-
-        // Save message to database
-        $message = Message::create([
-            'name' => $request->name,
-            'email' => $request->email,
-            'message' => $request->message,
+      
+        Message::create([
+            'name'=>request('name'),
+            'email'=>request('email'),
+            'message'=>request('message')
         ]);
-
+    
         // Send email
-        $details = [
-            'name' => $message->name,
-            'email' => $message->email,
-            'message' => $message->message,
-        ];
-
-        Mail::to('eray@gmail.com')->send(new ContactMail($details));
-
-        return back()->with('success', 'Message sent and saved successfully!');
+        Mail::raw(request('message'), function ($message) {
+            $message->to('eraymutabesha13@gmail.com')
+                    ->subject("New Message from " . request('name'));
+        });
+                
+           
+         return redirect('#contact')->with('success', 'Message sent successfully!');
     }
 }

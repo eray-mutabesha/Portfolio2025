@@ -1,4 +1,12 @@
 <section class="page-section" id="contact">
+
+
+   @if (session('success'))
+        <div style="color: green; padding: 10px; border: 1px solid green; margin-bottom: 20px;">
+            {{ session('success') }}
+        </div>
+    @endif
+
       <div class="bg-blurred-red"></div>
       <div class="container">
         <div class="row">
