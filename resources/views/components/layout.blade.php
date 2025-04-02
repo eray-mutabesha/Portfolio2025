@@ -9,7 +9,7 @@
 
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-  <title>Eray | Personal Portfolio</title>
+  <title>Eray Mutabesha</title>
   <!-- Favicon -->
   <link rel="icon" href="assets/images/favicon.png" type="image/png">
   <!-- /Favicon -->
@@ -52,18 +52,17 @@
         </div>
         <nav class="site-menu text-uppercase">
           <ul>
-            <li><a href="#home" class="one-page-link active">Home</a></li>
-            <li><a href="#service" class="one-page-link">Services</a></li>
-            <li><a href="#about" class="one-page-link">About Me</a></li>
-            <li><a href="#portfolio" class="one-page-link">Portfolio</a></li>
+            <li><a href="/#home" class="one-page-link active">Home</a></li>
+            <li><a href="/#service" class="one-page-link">Services</a></li>
+            <li><a href="/#about" class="one-page-link">About Me</a></li>
             <li class="has-submenu">
               <a href="#">Blog <i class="fa fa-chevron-down"></i></a>
               <ul class="submenu">
-                <li><a href="blog-list.html">Blog List</a></li>
-                <li><a href="blog-detail.html">Blog Detail</a></li>
+                <li><a href="/bloglist">Blog List</a></li>
+                <li><a href="/postblog">Create a Blog</a></li>
               </ul>
             </li>
-            <li><a href="#contact" class="one-page-link">Contact</a></li>
+            <li><a href="/#contact" class="one-page-link">Contact</a></li>
           </ul>
         </nav>
         <!-- /Menu -->
