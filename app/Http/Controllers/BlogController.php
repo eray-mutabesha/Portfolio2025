@@ -42,12 +42,10 @@ class BlogController extends BaseController
 
     public function showArticles()
     {
-        // Fetch articles directly as Eloquent model instances
-        $articles = Blog::all(); // No ->map() here
+        // Fetch articles with sorting and pagination
+        $articles = Blog::latest()->paginate(3); // Correct order
     
-        return view('blog-list', compact('articles'));
+        return view('components/blog-list', compact('articles'));
     }
-
-
     
 }

@@ -10,7 +10,7 @@
             <!-- Blog List -->
             <div class="blog-list">
               <!-- Blog List Item -->
-   @foreach ($blogs as $article)
+   @foreach ($articles as $article)
   <div class="blog-list-item wow fadeInLeft" data-wow-offset="0" data-wow-delay="0">
     <div class="blog-list-item__image">
       <a href="blog-detail.html">
@@ -38,32 +38,45 @@
 
             </div>
             <!-- /Blog List -->
-
-            <!-- Pagination -->
-            <div class="pagination-wrap">
-              <nav aria-label="Page navigation example">
-                <ul class="pagination list-wrap">
-                  <li class="page-item">
-                    <a class="page-link" href="#">
-                      <span class="visually-hidden">Prev</span>
-                      <i class="fa fa-angle-left"></i>
-                    </a>
-                  </li>
-                  <li class="page-item active"><a class="page-link" href="#">1</a></li>
-                  <li class="page-item"><a class="page-link" href="#">2</a></li>
-                  <li class="page-item"><a class="page-link" href="#">3</a></li>
-                  <li class="page-item"><a class="page-link" href="#">4</a></li>
-                  <li class="page-item next-page">
-                    <a class="page-link" href="#">
-                      <span class="visually-hidden">Next</span>
-                      <i class="fa fa-angle-right"></i>
-                    </a>
-                  </li>
-                </ul>
-              </nav>
+            <div class="pagination-container">
+         
             </div>
-            <!-- /Pagination -->
 
+                        <!-- Pagination -->
+<!-- Custom Pagination -->
+<div class="pagination-wrap">
+    <nav aria-label="Page navigation example">
+        <ul class="pagination list-wrap">
+
+            <!-- Previous Page Link -->
+            @if ($articles->onFirstPage())
+                <li class="page-item disabled"><span class="page-link">Prev</span></li>
+            @else
+                <li class="page-item"><a class="page-link" href="{{ $articles->previousPageUrl() }}">Prev</a></li>
+            @endif
+
+            <!-- Pagination Elements -->
+            @foreach ($articles->getUrlRange(1, $articles->lastPage()) as $page => $url)
+                @if ($page == $articles->currentPage())
+                    <li class="page-item active"><span class="page-link">{{ $page }}</span></li>
+                @else
+                    <li class="page-item"><a class="page-link" href="{{ $url }}">{{ $page }}</a></li>
+                @endif
+            @endforeach
+
+            <!-- Next Page Link -->
+            @if ($articles->hasMorePages())
+                <li class="page-item"><a class="page-link" href="{{ $articles->nextPageUrl() }}">Next</a></li>
+            @else
+                <li class="page-item disabled"><span class="page-link">Next</span></li>
+            @endif
+
+        </ul>
+    </nav>
+</div>
+<!-- /Custom Pagination -->
+
+            <!-- /Pagination -->
           </div>
 
 

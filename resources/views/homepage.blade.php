@@ -188,7 +188,63 @@
 
 
     <!-- all Blog component -->
-   <x-blog></x-blog>
+    <section class="page-section" id="blog">
+      <div class="container position-relative">
+        <div class="bg-blurred-red"></div>
+        <!-- Section Title -->
+        <div class="page-section-title row">
+          <div class="col-lg-8 mb-16 mb-lg-0">
+            <h3 class="section-title-s8 stroke-text-bolder wow fadeInRight" data-wow-duration="1s" data-wow-delay="1s">
+              My Blog</h3>
+          </div>
+          <div class="col-lg-8 offset-lg-2">
+            <p class="section-title-s4 wow fade-right" data-splitting="chars" data-splitting-delay="1s">Latest News and
+              Insight</p>
+          </div>
+        </div>
+        <!-- /Section Title -->
+
+        <!-- Blog Cards -->
+        <div class="row">
+
+        
+
+
+          @foreach ($articlesHome as $article)
+          <div class="col-lg-4">
+            <!-- Blog Card Item -->
+            <div class="blog-card wow fadeInLeft" data-wow-offset="0" data-wow-delay="0.4s">
+              <div class="blog-card__img">
+                <a href="blog-single.html">
+                  <span class="visually-hidden">Add link description</span>
+                  <img src="{{ asset('storage/' . $article->image_path) }}" alt="Image Description">
+              </div>
+              <div class="blog-card__container">
+
+
+                <h4 class="blog-card__title"><a href="blog-single.html">{{$article->title}}</a></h4>
+
+
+
+                <div class="blog-card__info d-flex justify-content-between align-items-center">
+                  <div class="d-flex gap-2 align-items-center">
+
+                    <a href="/bloglist">Read the entire article</a>
+                  </div>
+                  <div class="float-end">
+                    <a href="/bloglist">{{$article->created_at}}</a>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+            <!-- /Blog Card Item -->
+            </div>
+            @endforeach
+         
+        </div>
+      </div>
+    </section>
     <!-- /all Blog component  -->
 
 

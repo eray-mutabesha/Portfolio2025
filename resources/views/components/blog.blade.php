@@ -88,6 +88,10 @@
             <!-- /Blog Card Item -->
           </div>
           <div class="col-lg-4">
+
+
+          @foreach ($articlesHome as $article)
+
             <!-- Blog Card Item -->
             <div class="blog-card wow fadeInLeft" data-wow-offset="0" data-wow-delay="0.4s">
               <div class="blog-card__img">
@@ -110,8 +114,7 @@
                   <div class="d-flex gap-2 align-items-center">
                     <a href="#">
                       <span class="visually-hidden">Author name</span>
-                      <img class="blog-card__author-img" width="30" height="30" src="assets/images/profile-6.jpg"
-                        alt="Image Description">
+                      <img src="{{ asset('storage/' . $article->image_path) }}" alt="Image Description">
                     </a>
                     <a href="#">Author</a>
                   </div>
@@ -123,6 +126,7 @@
               </div>
             </div>
             <!-- /Blog Card Item -->
+            @endforeach
           </div>
         </div>
       </div>

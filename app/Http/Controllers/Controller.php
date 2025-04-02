@@ -39,4 +39,7 @@ class Controller extends BaseController
            
          return redirect('#contact')->with('success', 'Message sent successfully!');
     }
+
+
+
 }

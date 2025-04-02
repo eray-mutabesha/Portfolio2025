@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Controller;
 use App\Http\Controllers\BlogController;
+use App\Http\Controllers\HomeBlogController;
 use App\Models\Message;
 use App\Models\Blog;
 
@@ -22,15 +23,9 @@ Route::get('/bloglist', function () {
 
 
 
-Route::post('/postblog', [BlogController::class, 'store'])->name('blogs.store');
+
 Route::post('/', [Controller::class, 'sendMessage']);
+Route::get('/', [HomeBlogController::class, 'index'])->name('home');
 
-// Route::get('/bloglist', [BlogController::class, 'showArticles']);
-
-Route::get('/bloglist', function () {
-    $blogs = Blog::latest()->paginate(10);
-    return view('components/blog-list', [
-        'blogs' => $blogs
-    ]);
-});
-
+Route::post('/postblog', [BlogController::class, 'store'])->name('blogs.store');
+Route::get('/bloglist', [BlogController::class, 'showArticles'])->name('articlesHome.showArticles');
