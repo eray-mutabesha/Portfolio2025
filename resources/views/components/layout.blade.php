@@ -35,7 +35,7 @@
       <div class="site-header-container">
         <!-- Logo -->
         <div class="site-header-logo">
-          <a href="#" class="logo">
+          <a href="/#" class="logo">
             <img src="assets/images/logo.png" alt="Your Logo" width="120" height="34">
             <span class="visually-hidden">Logo</span>
           </a>
@@ -69,8 +69,8 @@
 
         <!-- Button Hire Me -->
         <div class="d-none d-xl-flex site-menu-right">
-          <a href="#contact" class="btn btn-md one-page-link">
-            Hire Me <i class="fa fa-chevron-right ms-1 fs-sm"></i>
+          <a href="/#blog" class="btn btn-md one-page-link">
+            News<i class="fa fa-chevron-right ms-1 fs-sm"></i>
           </a>
         </div>
         <!-- Button Hire Me -->

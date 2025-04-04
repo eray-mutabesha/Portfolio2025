@@ -55,19 +55,11 @@
               <!-- /About -->
               <!-- Achievements -->
               <div class="col-lg-6 pb-64 pb-lg-0">
-                <div class="d-flex gap-5 justify-content-center justify-content-lg-start">
-                  <div class="counter-card wow-num fadeInRight" data-wow-delay="3s">
-                    <h4 class="counter-card__digit"><span class="odometer-number" data-number="500"></span>+</h4>
-                    <p class="text-gray-3">Articles Published </p>
-                  </div>
-                  <div class="counter-card wow-num fadeInRight" data-wow-delay="3.2s">
-                    <h4 class="counter-card__digit"><span class="odometer-number" data-number="80"></span>K+</h4>
-                    <p class="text-gray-3">Subscribers</p>
-                  </div>
-                </div>
+
                 <div class="mt-16 text-center text-lg-start wow fadeInRight" data-wow-delay="1.6s">
-                  <a href="#" class="btn btn-sm wow fadeInLeft" data-wow-delay="3s">
-                    Resume <i class="fa fa-chevron-right ms-2"></i>
+                  <a href="#contact" class="btn btn-sm wow fadeInLeft" data-wow-delay="3s">
+                  
+                  let's work on your projects <i class="fa fa-chevron-right ms-2"></i>
                   </a>
                 </div>
               </div>

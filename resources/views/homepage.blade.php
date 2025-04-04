@@ -43,16 +43,59 @@
             <div class="swiper-slide">
               <div class="testimonial-card-s2">
                 <blockquote class="testimonial-card-s2__text">
-                  <p>We've seen a significant increase in traffic and engagement on our site, Highly Recommended! </p>
+                  <p>Smart, reliable, and highly skilled—Eray was instrumental in bringing our tech goals to life at MUKE</p>
                 </blockquote>
                 <div class="testimonial-card-s2__client">
                   <div class="d-flex gap-3 justify-content-center">
                     <div class="testimonial-card-s2__client-img">
-                      <img src="assets/images/clients/client-profile-1.jpg" alt="client image">
+                      <img src="assets/images/clients/nabintuNkuba.png" alt="client image">
                     </div>
                     <div>
-                      <div class="testimonial-card-s2__client-name">John Smith</div>
-                      <div class="testimonial-card-s2__client-occ">CEO - Company</div>
+                      <div class="testimonial-card-s2__client-name">Nabintu Nkuba</div>
+                      <div class="testimonial-card-s2__client-occ">Founder of MUKE Magazine</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- /Testimonial item -->
+
+                        <!-- Testimonial item -->
+                        <div class="swiper-slide">
+              <div class="testimonial-card-s2">
+                <blockquote class="testimonial-card-s2__text">
+                  <p>Eray understands both design and function. Working with him felt natural and productive. </p>
+                </blockquote>
+                <div class="testimonial-card-s2__client">
+                  <div class="d-flex gap-3 justify-content-center">
+                    <div class="testimonial-card-s2__client-img">
+                      <img src="assets/images/clients/muzuka.png" alt="client image">
+                    </div>
+                    <div>
+                      <div class="testimonial-card-s2__client-name">Christopher Muzuka</div>
+                      <div class="testimonial-card-s2__client-occ">Freelance Graphic Designer</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- /Testimonial item -->
+
+
+                        <!-- Testimonial item -->
+                        <div class="swiper-slide">
+              <div class="testimonial-card-s2">
+                <blockquote class="testimonial-card-s2__text">
+                  <p>He brings great vibes and clear thinking to every project. Collaborating with him was smooth and inspiring. </p>
+                </blockquote>
+                <div class="testimonial-card-s2__client">
+                  <div class="d-flex gap-3 justify-content-center">
+                    <div class="testimonial-card-s2__client-img">
+                      <img src="assets/images/clients/medy.png" alt="client image">
+                    </div>
+                    <div>
+                      <div class="testimonial-card-s2__client-name">Medy Mupika</div>
+                      <div class="testimonial-card-s2__client-occ">coordinator at Pulse of Knowledge</div>
                     </div>
                   </div>
                 </div>
@@ -64,16 +107,40 @@
             <div class="swiper-slide">
               <div class="testimonial-card-s2">
                 <blockquote class="testimonial-card-s2__text">
-                  <p>We've seen a significant increase in traffic and engagement on our site, Highly Recommended! </p>
+                  <p>Eray delivered clean, efficient work and collaborated seamlessly with the team. A strong asset to NGUVU TECH. </p>
                 </blockquote>
                 <div class="testimonial-card-s2__client">
                   <div class="d-flex gap-3 justify-content-center">
                     <div class="testimonial-card-s2__client-img">
-                      <img src="assets/images/clients/client-profile-2.jpg" alt="client image">
+                      <img src="assets/images/clients/robin.png" alt="client image">
                     </div>
                     <div>
-                      <div class="testimonial-card-s2__client-name">Jane Doe</div>
-                      <div class="testimonial-card-s2__client-occ">Marketing Director</div>
+                      <div class="testimonial-card-s2__client-name"> Robin Businde</div>
+                      <div class="testimonial-card-s2__client-occ">CEO of NGUVU TECH</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- /Testimonial item -->
+
+
+
+
+            <!-- Testimonial item -->
+            <div class="swiper-slide">
+              <div class="testimonial-card-s2">
+                <blockquote class="testimonial-card-s2__text">
+                  <p>Eray is detail-oriented, creative, and easy to work with. His presence at Story Zetu made a real difference.</p>
+                </blockquote>
+                <div class="testimonial-card-s2__client">
+                  <div class="d-flex gap-3 justify-content-center">
+                    <div class="testimonial-card-s2__client-img">
+                      <img src="assets/images/clients/elisha.png" alt="client image">
+                    </div>
+                    <div>
+                      <div class="testimonial-card-s2__client-name">Elisha Abumba</div>
+                      <div class="testimonial-card-s2__client-occ">Founder, Story Zetu</div>
                     </div>
                   </div>
                 </div>
@@ -85,79 +152,16 @@
             <div class="swiper-slide">
               <div class="testimonial-card-s2">
                 <blockquote class="testimonial-card-s2__text">
-                  <p>We've seen a significant increase in traffic and engagement on our site, Highly Recommended! </p>
+                  <p>Focused, reliable, and a great team player—Eray adds value wherever he works. A true professional. </p>
                 </blockquote>
                 <div class="testimonial-card-s2__client">
                   <div class="d-flex gap-3 justify-content-center">
                     <div class="testimonial-card-s2__client-img">
-                      <img src="assets/images/clients/client-profile-3.jpg" alt="client image">
+                      <img src="assets/images/clients/hakim.png" alt="client image">
                     </div>
                     <div>
-                      <div class="testimonial-card-s2__client-name">Mike Johnson</div>
-                      <div class="testimonial-card-s2__client-occ">Business owner</div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <!-- /Testimonial item -->
-
-            <!-- Testimonial item -->
-            <div class="swiper-slide">
-              <div class="testimonial-card-s2">
-                <blockquote class="testimonial-card-s2__text">
-                  <p>We've seen a significant increase in traffic and engagement on our site, Highly Recommended! </p>
-                </blockquote>
-                <div class="testimonial-card-s2__client">
-                  <div class="d-flex gap-3 justify-content-center">
-                    <div class="testimonial-card-s2__client-img">
-                      <img src="assets/images/clients/client-profile-4.jpg" alt="client image">
-                    </div>
-                    <div>
-                      <div class="testimonial-card-s2__client-name">Sarah Thompson</div>
-                      <div class="testimonial-card-s2__client-occ">Marketing Manager</div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <!-- /Testimonial item -->
-
-            <!-- Testimonial item -->
-            <div class="swiper-slide">
-              <div class="testimonial-card-s2">
-                <blockquote class="testimonial-card-s2__text">
-                  <p>We've seen a significant increase in traffic and engagement on our site, Highly Recommended! </p>
-                </blockquote>
-                <div class="testimonial-card-s2__client">
-                  <div class="d-flex gap-3 justify-content-center">
-                    <div class="testimonial-card-s2__client-img">
-                      <img src="assets/images/clients/client-profile-5.jpg" alt="client image">
-                    </div>
-                    <div>
-                      <div class="testimonial-card-s2__client-name">Alice Watson</div>
-                      <div class="testimonial-card-s2__client-occ">Business Owner</div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <!-- /Testimonial item -->
-
-            <!-- Testimonial item -->
-            <div class="swiper-slide">
-              <div class="testimonial-card-s2">
-                <blockquote class="testimonial-card-s2__text">
-                  <p>We've seen a significant increase in traffic and engagement on our site, Highly Recommended! </p>
-                </blockquote>
-                <div class="testimonial-card-s2__client">
-                  <div class="d-flex gap-3 justify-content-center">
-                    <div class="testimonial-card-s2__client-img">
-                      <img src="assets/images/clients/client-profile-6.jpg" alt="client image">
-                    </div>
-                    <div>
-                      <div class="testimonial-card-s2__client-name">Peter Braun</div>
-                      <div class="testimonial-card-s2__client-occ">Business Owner</div>
+                      <div class="testimonial-card-s2__client-name"> Francise Hakim BC</div>
+                      <div class="testimonial-card-s2__client-occ">CEO, Blackcolorent</div>
                     </div>
                   </div>
                 </div>
