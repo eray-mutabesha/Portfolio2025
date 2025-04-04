@@ -45,7 +45,9 @@
             <!-- Education & Experiences -->
             <div>
               <h3 class="section-title-s4 mb-32 mb-lg-48 wow fade-right" data-splitting="chars">
-                Published Works
+              Featured Works
+
+
               </h3>
               <div class="position-relative">
                 <!-- <div class="bg-blurred-red-1"></div> -->
@@ -93,7 +95,7 @@
             <div class="row mt-lg-48">
               <div class="col-12 col-sm-6 mb-32">
                 <div class="counter-card-s2 wow-num fadeInRight" data-wow-delay="1s">
-                  <h4 class="counter-card-s2__digit"><span class="odometer-number" data-number="4"></span>+</h4>
+                  <h4 class="counter-card-s2__digit"><span class="odometer-number" data-number="5"></span>+</h4>
                   <p class="text-gray-3">Years of Experience</p>
                 </div>
               </div>
@@ -111,7 +113,7 @@
               </div>
               <div class="col-12 col-sm-6">
                 <div class="counter-card-s2 wow-num fadeInRight" data-wow-delay="1.2s">
-                  <h4 class="counter-card-s2__digit"><span class="odometer-number" data-number="20"></span>+</h4>
+                  <h4 class="counter-card-s2__digit"><span class="odometer-number" data-number="15"></span>+</h4>
                   <p class="text-gray-3">Published Works</p>
                 </div>
               </div>
