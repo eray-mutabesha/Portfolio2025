@@ -24,7 +24,6 @@
                 </div>
 
 
-
                 <!-- Content -->
                 <div class="mb-5">
                   <label for="comment">Content of the article</label>

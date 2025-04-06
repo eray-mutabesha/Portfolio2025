@@ -63,6 +63,7 @@
               </ul>
             </li>
             <li><a href="/#contact" class="one-page-link">Contact</a></li>
+            <li><a href="/login" class="one-page-link active">Login</a></li>
           </ul>
         </nav>
         <!-- /Menu -->
