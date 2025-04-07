@@ -14,7 +14,7 @@
                  </div>
              @endif
 
-             
+
             <!-- Add Comment -->
             <div class="blog-comment-form" style=" positon:relative ; left: auto ; right:auto ">
               <h4 class="blog-comments-title">Create an administrator acount</h4>
@@ -33,7 +33,7 @@
                     <label for="name">UserName *</label>
                     <input type="text" name="name" id="name" class="input-lg round form-control"
                       placeholder="UserName" maxlength="100" >
-                      @if($errors->has('email'))
+                      @if($errors->has('name'))
                       <span style="color:red">{{$errors->first('name')}}</span>
                       @endif
                   </div>
@@ -46,7 +46,7 @@
                       placeholder="Email" maxlength="100" >
 
                       @if($errors->has('text'))
-                      <span style="color:red">{{$errors->first('text')}}</span>
+                      <span style="color:red">{{$errors->first('email')}}</span>
                       @endif
                   </div>
 

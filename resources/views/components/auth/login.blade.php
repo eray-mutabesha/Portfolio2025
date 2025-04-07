@@ -19,8 +19,8 @@
                 <div class="row mb-5" >
                   <div class="col-md-6 mb-5 mb-md-0">
                     <!-- title -->
-                    <label for="name">UserName *</label>
-                    <input type="text" name="name" id="name" class="input-lg round form-control"
+                    <label for="name">Email *</label>
+                    <input type="text" name="email" id="name" class="input-lg round form-control"
                       placeholder="UserName" maxlength="100" required aria-required="true">
                       @if($errors->has('email'))
                       <span style="color:red">{{$errors->first('email')}}</span>
@@ -30,12 +30,12 @@
                 <div class="row mb-5">
                   <div class="col-md-6 mb-5 mb-md-0">
                     <!-- title -->
-                    <label for="name">Email *</label>
-                    <input type="email" name="email" id="email" class="input-lg round form-control"
-                      placeholder="Email" maxlength="100" required aria-required="true">
+                    <label for="name">Password *</label>
+                    <input type="password" name="password" id="password" class="input-lg round form-control"
+                      placeholder="Password" maxlength="100" required aria-required="true">
 
-                      @if($errors->has('text'))
-                      <span style="color:red">{{$errors->first('text')}}</span>
+                      @if($errors->has('password'))
+                      <span style="color:red">{{$errors->first('password')}}</span>
                       @endif
                   </div>
 

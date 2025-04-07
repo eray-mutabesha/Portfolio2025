@@ -11,7 +11,11 @@
             <div class="blog-list">
               <!-- Blog List Item -->
    @foreach ($articles as $article)
-  <div class="blog-list-item wow fadeInLeft" data-wow-offset="0" data-wow-delay="0">
+  <div class="blog-list-item wow fadeInLeft" data-wow-offset="0" data-wow-delay="0" style="
+   white-space: normal;
+  word-wrap: break-word; 
+  overflow-wrap: break-word;">
+
     <div class="blog-list-item__image">
       <a href="blog-detail.html">
         <span class="visually-hidden">Add link description</span>

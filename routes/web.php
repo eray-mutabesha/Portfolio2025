@@ -18,9 +18,6 @@ Route::get('/postblog', function () {
     return view('components/post-blog');
 })->name('postblog');
 
-
-
-
 Route::get('/bloglist', function () {
     return view('components/blog-list');
 });
@@ -30,15 +27,17 @@ Route::get('/bloglist', function () {
 
 Route::post('/', [Controller::class, 'sendMessage']);
 Route::get('/', [HomeBlogController::class, 'index'])->name('home');
-// Route::post('/postblog', [BlogController::class, 'store'])->name('blogs.store');
-Route::get('/bloglist', [BlogController::class, 'showArticles'])->name('articlesHome.showArticles');
+
+Route::Middleware("auth")->group(function(){
+    Route::get('/bloglist', [BlogController::class, 'showArticles'])->name('articlesHome.showArticles');
+});
 
 
-
+Route::post('/postblog', [BlogController::class, 'store'])->name('blogs.store');
 // Admin-only
 
 Route::get('/login', [AuthController::class, 'login'])->name('login');
-Route::post('/login', [AuthController::class, 'loginpost'])->name('loginpost');
+Route::post('/loginpost', [AuthController::class, 'loginpost'])->name('loginpost');
 
 Route::get('/register', [AuthController::class, 'register'])->name('register');
 Route::post('/register', [AuthController::class, 'postregister'])->name('register.post');

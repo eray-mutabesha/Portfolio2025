@@ -1,7 +1,6 @@
 <?php
 
 namespace App\Http\Controllers;
-
 use Illuminate\Http\Request;
 use App\Models\User;
 use Illuminate\Support\Facades\Hash;
@@ -14,7 +13,17 @@ class AuthController extends Controller
    }
 
    public function loginpost(Request $request){
-    return view('components/auth/login');
+        $request->validate(
+        [
+             "email" => "required|email|unique:users,email",
+             "password" => "required",
+        ]);
+
+        $credentials = $request->only("email","password");
+        if(Auth::attempt($credentials)){
+            return redirect()->intended("/postblog");
+        }
+
    }
 
    public function register(){
@@ -27,7 +36,6 @@ class AuthController extends Controller
             "name"=>"required",
              "email" => "required|email|unique:users,email",
              "password" => "required",
-
         ]);
 
         $user = new User();
@@ -36,7 +44,7 @@ class AuthController extends Controller
         $user->password = Hash::make($request->password);
 
         if($user->save()){
-            return redirect("/postblog")->with("succes",("user created"));
+            return redirect("/register")->with("success",("user created"));
 
         }
         return redirect("/register")->with("error",("fail to create a new user"));
