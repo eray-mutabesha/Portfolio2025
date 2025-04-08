@@ -11,7 +11,8 @@
               <h4 class="blog-comments-title">Login as administrator</h4>
               <!-- Form -->
 
-              <form method="POST"  action="/loginpost"  id="form" class="form" enctype="multipart/form-data"  >
+              <form method="POST" action="{{ route('login.post') }}" class="form"  id="form">
+
               @csrf
 
 
@@ -20,7 +21,7 @@
                   <div class="col-md-6 mb-5 mb-md-0">
                     <!-- title -->
                     <label for="name">Email *</label>
-                    <input type="text" name="email" id="name" class="input-lg round form-control"
+                    <input type="email" name="email" id="name" class="input-lg round form-control"
                       placeholder="UserName" maxlength="100" required aria-required="true">
                       @if($errors->has('email'))
                       <span style="color:red">{{$errors->first('email')}}</span>
