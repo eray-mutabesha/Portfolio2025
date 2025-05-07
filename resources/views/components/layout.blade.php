@@ -55,15 +55,16 @@
             <li><a href="/#home" class="one-page-link active">Home</a></li>
             <li><a href="/#service" class="one-page-link">Services</a></li>
             <li><a href="/#about" class="one-page-link">About Me</a></li>
-            <li class="has-submenu">
+            <li><a href="/bloglist" class="one-page-link">Blog</a></li>
+            <!-- <li class="has-submenu">
               <a href="#">Blog <i class="fa fa-chevron-down"></i></a>
               <ul class="submenu">
                 <li><a href="/bloglist">Blog List</a></li>
                 <li><a href="/postblog">Create a Blog</a></li>
               </ul>
-            </li>
+            </li> -->
             <li><a href="/#contact" class="one-page-link">Contact</a></li>
-            <li><a href="/login" class="one-page-link active">Login</a></li>
+            <li><a href="/login" class="one-page-link ">Login</a></li>
           </ul>
         </nav>
         <!-- /Menu -->
